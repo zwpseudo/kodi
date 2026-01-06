@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.zwpseudo" name="ZWPseudo Repo" version="1.0.0" provider-name="zwpseudo">
+  <extension point="xbmc.addon.repository" name="ZWPseudo Repo">
+    <info compressed="false">https://raw.githubusercontent.com/zwpseudo/kodi/main/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/zwpseudo/kodi/main/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/zwpseudo/kodi/main/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ZWPseudo Repo</summary>
+    <description>Repository for zwpseudo Kodi addons.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
